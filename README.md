@@ -45,10 +45,30 @@ int main()
 			cout << "\n" << figure[1] << "\n Choose a chocolate  (1-5):  ";
 			cin >> pickMon;
 
-			cout << "\n" << figure[1] << "\n Please enter the quantity you want: ";
-			cin >> quant;
+			if (pickMon == 1)
 
-			coins = quant * pickMon;
+			{
+				 cout << "\nYour change will be " << settle - 3.50;
+			}
+			else if (pickMon == 2)
+			{
+				cout << "\nYour change will be " << settle - 2.50;
+			}
+			else if (pickMon == 3)
+			{
+			    cout << "\nYour change will be " << settle - 3.00;
+			}
+			else if (pickMon == 4)
+			{
+				cout << "\nYour change will be " << settle - 4.50;
+
+			}
+			else if (pickMon == 5)
+			{
+				 cout << "\nYour change will be " << settle - 5.50;
+			}
+
+			exchange = settle - pickMon;
 
 			break;
 
@@ -64,10 +84,31 @@ int main()
 			cout << "\n" << figure[1] << "\n Choose a chip  (1-5):  ";
 			cin >> pickMon;
 
-			cout << "\n" << figure[1] << "\n Please enter the quantity you want: ";
-			cin >> quant;
 
-			coins = quant * pickMon;
+			if (pickMon == 1)
+
+			{
+				cout << "\nYour change will be " << settle - 1.00;
+			}
+			else if (pickMon == 2)
+			{
+				cout << "\nYour change will be " << settle - 1.50;
+			}
+			else if (pickMon == 3)
+			{
+				cout << "\nYour change will be " << settle - 3.50;
+			}
+			else if (pickMon == 4)
+			{
+				cout << "\nYour change will be " << settle - 1.50;
+
+			}
+			else if (pickMon == 5)
+			{
+				cout << "\nYour change will be " << settle - 3.00;
+			}
+
+			exchange = settle - pickMon;
 
 			break;
 
@@ -83,10 +124,31 @@ int main()
 			cout << "\n" << figure[1] << "\n Choose a beverage  (1-5)";
 			cin >> pickMon;
 
-			cout << "\n" << figure[1] << "\n Please enter the quantity you want: ";
-			cin >> quant;
 
-			coins = quant * pickMon;
+			if (pickMon == 1)
+
+			{
+				cout << "\nYour change will be " << settle - 1.50;
+			}
+			else if (pickMon == 2)
+			{
+				cout << "\nYour change will be " << settle - 2.50;
+			}
+			else if (pickMon == 3)
+			{
+				cout << "\nYour change will be " << settle - 5.50;
+			}
+			else if (pickMon == 4)
+			{
+				cout << "\nYour change will be " << settle - 3.50;
+
+			}
+			else if (pickMon == 5)
+			{
+				cout << "\nYour change will be " << settle - 2.00;
+			}
+
+			exchange = settle - pickMon;
 
 			break;
 
@@ -102,10 +164,31 @@ int main()
 			cout << "\n" << figure[1] << "\n Choose a biscuit  (1-5)";
 			cin >> pickMon;
 
-			cout << "\n" << figure[1] << "\n Please enter the quantity you want: ";
-			cin >> quant;
 
-			coins = quant * pickMon;
+			if (pickMon == 1)
+
+			{
+				cout << "\nYour change will be " << settle - 5.50;
+			}
+			else if (pickMon == 2)
+			{
+				cout << "\nYour change will be " << settle - 2.50;
+			}
+			else if (pickMon == 3)
+			{
+				cout << "\nYour change will be " << settle - 4.00;
+			}
+			else if (pickMon == 4)
+			{
+				cout << "\nYour change will be " << settle - 1.50;
+
+			}
+			else if (pickMon == 5)
+			{
+				cout << "\nYour change will be " << settle - 2.00;
+			}
+
+			exchange = settle - pickMon;
 
 			break;
 
@@ -121,10 +204,32 @@ int main()
 			cout << "\n" << figure[1] << "\n Choose a water  (1-5)";
 			cin >> pickMon;
 
-			cout << "\n" << figure[1] << "\n Please enter the quantity you want: ";
-			cin >> quant;
 
-			coins = quant * pickMon;
+			if (pickMon == 1)
+
+			{
+				cout << "Your change will be " << settle - 1.50;
+			}
+			else if (pickMon == 2)
+			{
+				cout << "Your change will be " << settle - 2.50;
+			}
+			else if (pickMon == 3)
+			{
+				cout << "Your change will be " << settle - 1.00;
+			}
+			else if (pickMon == 4)
+			{
+				cout << "Your change will be " << settle - 1.25;
+
+			}
+			else if (pickMon == 5)
+			{
+				cout << "Your change will be " << settle - 2.00;
+			}
+
+			exchange = settle - pickMon;
+
 
 			break;
 
@@ -138,16 +243,7 @@ int main()
 			cout << "\n           Sorry, you do not have enough money to proceed this transaction.  ";
 			cout << " We have returned " << settle << " AED";
 		}
-		else
-		{
-			cout << "\n\n      You have pick ";
-			cout << quant << " pcs -" << pick << endl;
-
-			cout << "Total Amount          : " << coins << " AED\n";
-
-			exchange = settle - coins;
-			cout << "Your change will be    " << exchange;
-		}
+		
 
 		cout << "\n\n" << figure[1] << "Do you want to order again? (y/n):  ";
 		cin >> yepnah;
