@@ -331,4 +331,8 @@ This program is for my assessment project to be summited in Code Lab 1, This pro
 	} while (yepnah == 'Y' || yepnah == 'y');
 	// This will print if the user enter N/n 
 	cout << "\n\n                             Thank you for your purchase, hope that you will buy again!";
+	
+	cout << endl << endl;
+	
+     return 0;
 }
