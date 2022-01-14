@@ -1,13 +1,13 @@
 # Vending-Machine-Program
 This program is for my assessment project to be summited in Code Lab 1, This program is for educational purpose only
-                     #include <iostream>
-                     #include <string>
-                     #include<stdio.h>
+                    #include <iostream>
+                    #include <string>
+                    #include<stdio.h>
 
-        using namespace std;
+         using namespace std;
 
-        int main()
-        {
+         int main()
+         {
 	// Declaring the variable names to be used in the vending machine
 	int orderKey, quant, pickMon;
 	char yepnah;
@@ -48,7 +48,7 @@ This program is for my assessment project to be summited in Code Lab 1, This pro
 		case 1:
 			// If the user pick the number 1 this will print the candy menu box
 			system("CLS"); //Prints to another page
-			pick = "Chocolates";
+			pick = "Candies";
 			cout << "\n                 |******************************************************|";
 			cout << "\n                 |                     Table d'Hote                     |";
 			cout << "\n                 |------------------------------------------------------|";
@@ -68,23 +68,28 @@ This program is for my assessment project to be summited in Code Lab 1, This pro
 			if (pickMon == 1)
 
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 3.50;
 			}
 			else if (pickMon == 2)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 2.50;
 			}
 			else if (pickMon == 3)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 3.00;
 			}
 			else if (pickMon == 4)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 4.50;
 
 			}
 			else if (pickMon == 5)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 5.50;
 			}
 
@@ -115,23 +120,28 @@ This program is for my assessment project to be summited in Code Lab 1, This pro
 			if (pickMon == 1)
 
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 1.00;
 			}
 			else if (pickMon == 2)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 1.50;
 			}
 			else if (pickMon == 3)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 3.50;
 			}
 			else if (pickMon == 4)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 1.50;
 
 			}
 			else if (pickMon == 5)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 3.00;
 			}
 
@@ -163,23 +173,28 @@ This program is for my assessment project to be summited in Code Lab 1, This pro
 			if (pickMon == 1)
 
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 1.50;
 			}
 			else if (pickMon == 2)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 2.50;
 			}
 			else if (pickMon == 3)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 5.50;
 			}
 			else if (pickMon == 4)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 3.50;
 
 			}
 			else if (pickMon == 5)
 			{ 
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 2.00;
 			}
 
@@ -211,23 +226,28 @@ This program is for my assessment project to be summited in Code Lab 1, This pro
 			if (pickMon == 1)
 
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 5.50;
 			}
 			else if (pickMon == 2)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 2.50;
 			}
 			else if (pickMon == 3)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 4.00;
 			}
 			else if (pickMon == 4)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 1.50;
 
 			}
 			else if (pickMon == 5)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 2.00;
 			}
 
@@ -259,23 +279,27 @@ This program is for my assessment project to be summited in Code Lab 1, This pro
 			if (pickMon == 1)
 
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 1.50;
 			}
 			else if (pickMon == 2)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 2.50;
 			}
 			else if (pickMon == 3)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 1.00;
 			}
 			else if (pickMon == 4)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 1.25;
-
 			}
 			else if (pickMon == 5)
 			{
+				cout << "\n                    The item had been dispensed!";
 				cout << "\n                    Your change will be " << settle - 2.00;
 			}
 
