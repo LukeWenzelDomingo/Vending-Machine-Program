@@ -316,7 +316,7 @@ This program is for my assessment project to be summited in Code Lab 1, This pro
 		// Condition is the user doesn't have enough money to buy the item
 		if (settle < coins)
 		{
-			cout << "\n                         Sorry, you do not have enough money to proceed this transaction.  ";
+			cout << "\n                         Sorry, you do not have enough money to proceed with this transaction.  ";
 			cout << "\n                         We have returned " << settle << " AED";
 		}
 
