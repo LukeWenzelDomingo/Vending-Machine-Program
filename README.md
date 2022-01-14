@@ -1,13 +1,13 @@
 # Vending-Machine-Program
 This program is for my assessment project to be summited in Code Lab 1, This program is for educational purpose only
-        #include <iostream>
-        #include <string>
-        #include<stdio.h>
+              #include <iostream>
+              #include <string>
+              #include<stdio.h>
 
         using namespace std;
 
         int main()
-{
+        {
 	// Declaring the variable names to be used in the vending machine
 	int orderKey, quant, pickMon;
 	char yepnah;
